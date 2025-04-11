@@ -1,0 +1,87 @@
+/* O "*" muda tudo*/
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+/*Estilo do corpo*/
+body{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+background-color: black;
+color: rgb(255, 255, 255);
+}
+
+/*Cabeçalho e navegação*/
+header{
+background-color: rgb(43, 255, 0);
+padding: 1% 1%;
+}
+header nav ul{
+    list-style: none;
+    text-align: center;
+}
+header nav ul li{
+display:inline-flex;
+margin: 10px 10px;
+}
+header nav ul li a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-size: 15px;
+}
+header nav ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* Estilização do inicio*/
+.ini-section{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.ini-section h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.ini-section p{
+font-size: 15px;
+margin-bottom: 15px;
+max-width: 300px;
+}
+.cta-button{
+background-color: rgb(21, 255, 0);
+color: rgb(0, 0, 0);
+text-decoration: none;
+border-radius: 24px;
+padding: 15px 30px;
+font-weight: bold;
+transition: background-color 0.5s;
+}
+.cta-button:hover{
+background-color: darkred;
+}
+
+/* Aqui começa a sessão "sobre nós" */
+.sobre-section{
+background-color:rgb(21, 255, 0);
+color: black;
+padding: 80px 20px;
+text-align: center;
+}
+.sobre-section h2{
+font-size: 30px;
+margin-bottom: 15px;
+}
+.sobre-section p{
+font-size: 18px;
+margin-bottom: 20px;
+max-width: 800px;
+margin: 0 auto 20px auto;
+line-height: 1.5;
+}
